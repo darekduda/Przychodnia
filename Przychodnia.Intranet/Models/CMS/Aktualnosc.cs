@@ -13,12 +13,12 @@ namespace Przychodnia.Intranet.Models.CMS
         public int IdAktualnosci { get; set; }
         
         [Required(ErrorMessage = "Wpisz tytuł odnośnika do aktualnosci")]
-        [MaxLength(ErrorMessage = "Tytuł powinien zawierać max 10 znaków")]
+        [MaxLength(10, ErrorMessage = "Tytuł powinien zawierać max 10 znaków")]
         [Display(Name = "Tytół odnośnika aktualnosci")]
         public string LinkTytul { get; set; }
 
         [Required(ErrorMessage = "Wpisz tytuł aktualności")]
-        [MaxLength(ErrorMessage = "Tytuł aktualności powinien zawierać max 30 znaków")]
+        [MaxLength(50, ErrorMessage = "Tytuł aktualności powinien zawierać max 30 znaków")]
         [Display(Name = "Tytół aktualności")]
         public string Tytul { get; set; }
 

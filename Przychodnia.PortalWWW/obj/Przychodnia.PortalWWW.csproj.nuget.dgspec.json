@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj": {}
+    "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj": {
+    "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj",
+        "projectUniqueName": "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj",
         "projectName": "Przychodnia.PortalWWW",
-        "projectPath": "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj",
+        "projectPath": "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.PortalWWW\\Przychodnia.PortalWWW.csproj",
         "packagesPath": "C:\\Users\\dariu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.PortalWWW\\obj\\",
+        "outputPath": "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.PortalWWW\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

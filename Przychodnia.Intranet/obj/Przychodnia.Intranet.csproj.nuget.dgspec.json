@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj": {}
+    "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj": {
+    "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj",
+        "projectUniqueName": "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj",
         "projectName": "Przychodnia.Intranet",
-        "projectPath": "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj",
+        "projectPath": "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.Intranet\\Przychodnia.Intranet.csproj",
         "packagesPath": "C:\\Users\\dariu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dariu\\source\\repos\\Przychodnia\\Przychodnia.Intranet\\obj\\",
+        "outputPath": "C:\\Users\\dariu\\source\\repos\\Clinic\\Przychodnia.Intranet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

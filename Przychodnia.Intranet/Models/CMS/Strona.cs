@@ -13,12 +13,12 @@ namespace Przychodnia.Intranet.Models.CMS
         public int IdStrony {get; set;}
         
         [Required(ErrorMessage ="Wpisz tytuł odnośnika")]
-        [MaxLength(ErrorMessage = "Tytuł powinien zawierać max 10 znaków")]
+        [MaxLength(10, ErrorMessage = "Tytuł powinien zawierać max 10 znaków")]
         [Display(Name = "Tytół odnośnika")]
         public string LinkTytul { get; set; }
         
         [Required(ErrorMessage = "Wpisz tytuł strony")]
-        [MaxLength(ErrorMessage = "Tytuł strony powinien zawierać max 30 znaków")]
+        [MaxLength(50, ErrorMessage = "Tytuł strony powinien zawierać max 30 znaków")]
         [Display(Name = "Tytół strony")]
         public string Tytul { get; set; }
 
